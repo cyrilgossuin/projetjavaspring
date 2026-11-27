@@ -1,5 +1,9 @@
 package com.example.projetjava.domain;
 
-public class ThermometerDevice {
+import java.time.LocalDateTime;
 
+public class ThermometerDevice extends Device {
+    private LocalDateTime installationDate;
+    private double parameter1;
+    private double mesurement1;
 }
